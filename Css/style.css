@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body.moha{
     background-color: #BBDEFB;
     margin: 0px;
@@ -103,3 +104,400 @@ body.moha div.segundo article.primero{
 body.moha footer{
     background-color: white;
 }
+=======
+<<<<<<< HEAD
+body{
+    margin: 0px;
+}
+.imagenes img{
+    border: solid black 1px;
+}
+.uno img{
+    border: solid black 1px;
+}
+.dos img{
+    border: solid black 1px;
+}
+.intro img{
+    border: solid black 1px;
+}
+nav{
+    display: flex;
+}
+.imagen img{
+    width: 100px;
+}
+nav .listado ul{
+    display: flex;
+    list-style: none;
+}
+.listado{
+    margin-top: 20px;
+}
+.listado ul{
+    margin-left: 190px;
+}
+.listado ul li{
+    padding-left: 150px;
+}
+.listado ul li:hover{
+    font-weight: bold;
+}
+.sing{
+    border: solid black 1px;
+    border-radius: 10%;
+    margin-left: 100px;
+    margin-right: 40px;
+    background-color: rgb(201, 201, 201);
+    padding: 5px;
+}
+.sing:hover{
+    background-color: white;
+}
+.regis{
+    border: solid black 1px;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+.regis:hover{
+    background-color: white;
+    color: black;
+}
+.imag{
+    width: 1910px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.intro{
+    display: flex;
+    padding-left: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: solid black 1px;
+    background-color: #c6e6ff;
+    align-items: start;
+}
+
+.intro img{
+    height: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 5%;
+}
+.todo{
+    background-color: #b7dfff;
+}
+.texto{
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: solid black 1px;
+}
+.empresas{
+    border-bottom: solid black 1px;
+}
+.empresas img{
+    width: 200px;
+    border-radius: 10%;
+}
+.empresas .uno{
+    display: flex;
+    margin-left: 200px;
+}
+.empresas .uno .BIC{
+    margin-right: 160px;
+}
+.empresas .uno .Zitek{
+    margin-right: 60px;
+}
+.empresas .dos{
+    display: flex;
+    margin-left: 200px;
+    padding-bottom: 100px;
+}
+.empresas .uno p{
+    width: 60%;
+}
+.empresas .dos p{
+    width: 60%;
+}
+.BIC img{
+    margin-bottom: 20px;
+}
+.Deusto img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.Zitek img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.kbi img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+.kabi img{
+    margin-bottom: 20px;
+}
+.Ekin img{
+    margin-bottom: 20px;
+}
+.kabi{
+    margin-right: 0px;
+}
+.Zitek{
+    padding-right: 90px;
+}
+.Deusto{
+    width: 60%;
+    margin-right: 0px;
+}
+.leer1{
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+    
+}
+.leer1:hover{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.leer2{
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+.leer2:hover{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.leer3{
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+.leer3:hover{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.leer4{
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+.leer4:hover{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.leer5{
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+.leer5:hover{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.leer6{
+    border: solid black 2px;
+    border-radius: 10%;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;
+}
+.leer6:hover{
+    border: solid white 2px;
+    border-radius: 10%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+.imagenes{
+    display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: #c6e6ff;
+}
+.imagenes img{
+    width: 900px;
+    border-radius: 1%;
+}
+.imagenes .img1{
+    margin-left: 20px;
+    margin-right: 60px;
+}
+footer{
+    display: flex;
+    border-top: solid black 1px;
+}
+footer .fotos img{
+    width: 100px;
+    padding-bottom: 60px;
+}
+footer .donde{
+    padding-left: 70px;
+}
+footer .donde img{
+    width: 300px;
+    margin-bottom: 60px;
+}
+footer .donde img:hover{
+    border: solid black 1px;
+}
+footer .conta{
+    padding-left: 200px;
+}
+
+=======
+
+        :root {
+            --azul-oscuro: #003366; /* Azul marino para fondo o texto principal */
+            --azul-medio: #0077B6;  /* Azul brillante para acentos y botones */
+            --azul-claro: #E6F0FF;  /* Azul muy claro para fondos de sección */
+            --texto-claro: #FFFFFF; /* Blanco para texto sobre fondos oscuros */
+            --texto-oscuro: #333333; /* Gris oscuro para texto principal */
+        }
+
+        header h1 {
+            margin-bottom: 5px; 
+            font-size: 2em;
+        }
+
+        nav {
+            background-color: var(--azul-medio); 
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center; 
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: var(--texto-claro);
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: var(--azul-oscuro); 
+        }
+
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--azul-claro);
+            color: var(--texto-oscuro);
+        }
+
+        header {
+            background-color: var(--azul-oscuro);
+            color: var(--texto-claro);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: var(--texto-claro);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--azul-medio);
+            border-bottom: 2px solid var(--azul-claro);
+            padding-bottom: 10px;
+        }
+
+        .oferta {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            transition: transform 0.2s;
+        }
+
+        .oferta:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 8px rgba(0, 119, 182, 0.2);
+        }
+
+        .oferta h3 {
+            color: var(--azul-oscuro);
+            margin-top: 0;
+        }
+
+        .oferta p {
+            margin-bottom: 5px;
+        }
+
+        .btn-aplicar {
+            display: inline-block;
+            background-color: var(--azul-medio);
+            color: var(--texto-claro);
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        .btn-aplicar:hover {
+            background-color: #005A94; 
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: var(--azul-oscuro);
+            color: var(--texto-claro);
+            margin-top: 30px;
+        }
+
+        footer a {
+            color: var(--azul-claro);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+>>>>>>> f3146a123a97abb60fd1ce5f38eb152ed0caed35
+>>>>>>> 3f7edddad0078cde68b28122b3c99768163542dd
