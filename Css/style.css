@@ -1,0 +1,105 @@
+body.moha{
+    background-color: #BBDEFB;
+    margin: 0px;
+}
+
+body.moha nav{
+    display: flex;
+    background-color: white;
+}
+
+body.moha nav ul{
+    display: flex;
+    
+}
+
+body.moha nav ul li{
+    display: flex;
+    margin-left: 20px;
+}
+
+body.moha nav ul button{
+    margin-left: 20px;
+}
+
+body.moha div.hero{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/viveroimagen.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+body.moha div.hero h1{
+    margin-bottom: 0px;
+}
+
+body.moha div.hero h4{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+}
+
+body.moha h2{
+    margin: 0;
+    padding-left: 0px;
+    padding-top: 20px;
+    background-color: #BBDEFB;
+}
+
+body.moha button{
+    display: flex;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+body.moha button:hover{
+    background-color: white;
+    text-decoration: none;
+}
+
+body.moha a{
+    text-decoration: none;
+}
+
+body.moha main{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+body.moha div{
+    border-bottom: solid 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    gap: 20px;
+    display: flex;
+    background-color: #BBDEFB;
+}
+
+body.moha div.primero{
+    display: flex;
+    flex-direction: row;
+}
+
+body.moha div.segundo{
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body.moha div.segundo article.primero{
+    border-right: solid 1px;
+}
+
+body.moha footer{
+    background-color: white;
+}
