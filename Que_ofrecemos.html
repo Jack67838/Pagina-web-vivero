@@ -6,27 +6,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="Css/style.css">
 </head>
-<body class="moha">
-        <nav>
-            <ul>
-                <li>¿Que ofrecemos?</li>
-                <li>Empresas</li>
-                <li>Sostenibilidad</li>
-                <li>Ofertas de trabajo</li>
-                <li>Contactos</li>
-                <button>
-                <p>Iniciar</p>
-                </button>
-                <button>
-                <p>Registrar</p>
-                </button>
-            </ul>
-        </nav>
+<body>
+<nav>
+        <img src="Imagenes/Logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="Que_ofrecemos.html">¿Que ofrecemos?</a></li>
+            <li><a href="Ofertas_de_trabajo.html">Ofertas de trabajo</a></li>
+            <li><a href="Empresa.html">Empresa</a></li>
+            <li><a href="Sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    <span><button>iniciar</button> <button>Registrar</button></span>
+    </nav>
     <div class="hero">
         <h1>BILBAO EMPRENDE</h1>
-        <h4>¿QUE OFRECEMOS?</h4>
+        <h4>QUE OFRECEMOS</h4>
     </div>
-<main>
+<main class="ofrecemos">
     <div class="primero">
         <article>
         <h2>Diseño de red</h2>
@@ -38,23 +34,25 @@ Se diseñó y documentó la configuración física y lógica de la red utilizand
         <img src="img/red.png" alt="Diseño" width="400px">
     </div>
     <div class="segundo">
-        <article class="primero">
+        <article class="izquierda">
         <h2>Instalación</h2>
         <p>Se realizó la instalación y configuración del equipamiento informático del vivero, incluyendo el hardware, software y ajustes de BIOS necesarios. El proceso abarcó la instalación básica del sistema, su configuración inicial y la incorporación de nuevos paquetes de software. También se implementaron medidas de seguridad para proteger el acceso físico y lógico a los equipos, gestionando las contraseñas mediante KeepassX.
 
 En paralelo, se llevó a cabo la instalación del sistema de almacenamiento del vivero, tanto a nivel físico como lógico, configurando los discos en RAID y asignando permisos y propiedades a usuarios y grupos. En ambos procesos se registraron los tiempos mínimos necesarios, así como las incidencias surgidas y sus soluciones.</p>
-        <a href=""><button >Leer mas</button></a>
+        <a href=""><button>Leer mas</button></a>
         </article>
-        <article>
+        <article class="derecha">
             <h2>Configuración</h2>
             <p>En esta fase de la implantación se configuraron tres servicios esenciales para el funcionamiento del vivero: un servicio de asignación dinámica de parámetros de red para el equipamiento cableado, un servicio de acceso remoto en modo gráfico para la administración de los servidores y un servicio de transferencia de archivos, que incluye un área común y espacios personales para los cuatro usuarios del sistema. Todo el proceso fue documentado, incorporando evidencias del correcto funcionamiento de cada servicio.
 
 Además, se registraron todas las incidencias surgidas durante la instalación y configuración. Cada incidencia incluye datos generales, descripción detallada con imágenes, búsquedas y recursos consultados, pruebas realizadas y la solución adoptada en caso de resolución.</p>
-       <a href=""><button >Leer mas</button></a> 
+       <a href=""><button>Leer mas</button></a> 
     </article>
     </div>
+    <div class="titulo">
     <h2>Incidencias comunes</h2>
-        <div>
+    </div>
+    <div class="incidencia">
         <article>
         <img src="img/RAIID.jpg" alt="RAID" width="168px">
         <p>En la instalación de RAID 1 es habitual encontrar problemas relacionados con la compatibilidad o el estado de los discos. Cuando los discos utilizados no tienen la misma capacidad o presentan diferencias de modelo o velocidad, pueden surgir errores o limitaciones al crear el volumen en espejo. También es frecuente que el sistema no detecte uno de los discos debido a fallos en los cables, puertos o controladoras, dificultando la configuración del RAID.</p>
@@ -68,8 +66,8 @@ Además, se registraron todas las incidencias surgidas durante la instalación y
         <p>En la instalación del servidor FTP suelen aparecer problemas relacionados con los permisos y la conectividad. Una incidencia frecuente consiste en configurar correctamente el servicio pero no asignar los permisos NTFS adecuados en las carpetas, lo que provoca que los usuarios no puedan acceder o subir archivos. También es habitual que el firewall no tenga habilitados el puerto 21 ni el rango de puertos pasivos, impidiendo que los clientes se conecten o puedan listar contenido.</p>
         </article>
     </div>
-    <div>
-        <img src="img/aws.png" alt="Despliege" width="400px">
+    <div class="aws">
+        <img src="img/aws.png" alt="Despliege" width="400px" class="iaws">
         <article>
         <h2>Despliege</h2>
         <p>Se implementó la aplicación web del vivero y su sistema de copias de seguridad en un entorno de cloud computing, con el objetivo de garantizar disponibilidad, seguridad y eficiencia de recursos. Se seleccionó un proveedor de nube adecuado, evaluando costo, facilidad de uso y funcionalidades.
@@ -103,6 +101,6 @@ Finalmente, se configuró un plan de copias de seguridad para los datos crítico
             <img src="Imagenes/youtube.png" alt="youtube" class="red">
             <img src="Imagenes/Linkedin.png" alt="Linkedin" class="red">
         </aside>
-</footer>
+    </footer>
 </body>
 </html>
