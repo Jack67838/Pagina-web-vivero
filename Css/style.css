@@ -180,6 +180,15 @@
     padding: 40px;
     border-top: solid 1px;
    }
+   .promocional{
+    border-top: solid 1px;
+    display: flex;
+    justify-content: center;
+   }
+   .video{
+   width: 500px;
+   height: auto;
+   }
    /* ====================== OFERTAS DE TRABAJO ====================== */
    .oferta {
        background: white;

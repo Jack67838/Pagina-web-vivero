@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+<nav>
+        <img src="Imagenes/Logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="Index.html">¿Que ofrecemos?</a></li>
+            <li><a href="Ofertas_de_trabajo.html">Ofertas de trabajo</a></li>
+            <li><a href="Empresa.html">Empresa</a></li>
+            <li><a href="Sostenibilidad.html">Sostenibilidad</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+        </ul>
+    <span><button>iniciar</button> <button>Registrar</button></span>
+    </nav>
+    <div class="hero">
+        <h1>BILBAO EMPRENDE</h1>
+        <h4>QUE OFRECEMOS</h4>
+    </div>
+<main class="ofrecemos">
+    <div class="primero">
+        <article>
+        <h2>Diseño de red</h2>
+        <p>Se implementó una red LAN cableada independiente para el vivero, garantizando el acceso seguro a los recursos internos como servidores, impresoras y equipos informáticos. Para mayor seguridad, se definieron redes virtuales separadas para cada empresa del vivero, asegurando aislamiento y control de acceso. La red del vivero se conectó a Internet a través de la infraestructura del centro San Luis.
+
+Se diseñó y documentó la configuración física y lógica de la red utilizando Packet Tracer, identificando y configurando los dispositivos necesarios, incluidos switches y routers. Posteriormente, se instaló y configuró el equipamiento real, verificando el acceso a los recursos del vivero tanto desde la red interna del centro como desde el exterior. Todas las pruebas confirmaron el correcto funcionamiento de la infraestructura de red..</p>
+        <a href=""><button >Leer mas</button></a>
+        </article>
+        <img src="img/red.png" alt="Diseño" width="400px">
+    </div>
+    <div class="segundo">
+        <article class="izquierda">
+        <h2>Instalación</h2>
+        <p>Se realizó la instalación y configuración del equipamiento informático del vivero, incluyendo el hardware, software y ajustes de BIOS necesarios. El proceso abarcó la instalación básica del sistema, su configuración inicial y la incorporación de nuevos paquetes de software. También se implementaron medidas de seguridad para proteger el acceso físico y lógico a los equipos, gestionando las contraseñas mediante KeepassX.
+
+En paralelo, se llevó a cabo la instalación del sistema de almacenamiento del vivero, tanto a nivel físico como lógico, configurando los discos en RAID y asignando permisos y propiedades a usuarios y grupos. En ambos procesos se registraron los tiempos mínimos necesarios, así como las incidencias surgidas y sus soluciones.</p>
+        <a href=""><button>Leer mas</button></a>
+        </article>
+        <article class="derecha">
+            <h2>Configuración</h2>
+            <p>En esta fase de la implantación se configuraron tres servicios esenciales para el funcionamiento del vivero: un servicio de asignación dinámica de parámetros de red para el equipamiento cableado, un servicio de acceso remoto en modo gráfico para la administración de los servidores y un servicio de transferencia de archivos, que incluye un área común y espacios personales para los cuatro usuarios del sistema. Todo el proceso fue documentado, incorporando evidencias del correcto funcionamiento de cada servicio.
+
+Además, se registraron todas las incidencias surgidas durante la instalación y configuración. Cada incidencia incluye datos generales, descripción detallada con imágenes, búsquedas y recursos consultados, pruebas realizadas y la solución adoptada en caso de resolución.</p>
+       <a href=""><button>Leer mas</button></a> 
+    </article>
+    </div>
+    <div class="titulo">
+    <h2>Incidencias comunes</h2>
+    </div>
+    <div class="incidencia">
+        <article>
+        <img src="img/RAIID.jpg" alt="RAID" width="168px">
+        <p>En la instalación de RAID 1 es habitual encontrar problemas relacionados con la compatibilidad o el estado de los discos. Cuando los discos utilizados no tienen la misma capacidad o presentan diferencias de modelo o velocidad, pueden surgir errores o limitaciones al crear el volumen en espejo. También es frecuente que el sistema no detecte uno de los discos debido a fallos en los cables, puertos o controladoras, dificultando la configuración del RAID.</p>
+        </article>
+        <article>
+        <img src="img/dominio.gif" alt="dominio" width="150px">
+        <p>Durante la instalación de un dominio en Windows Server suelen producirse incidencias relacionadas con la configuración de red. Una de las más comunes es que el servidor no tenga una dirección IP estática, lo que provoca fallos al promoverlo como controlador de dominio. También es frecuente que el servicio DNS esté mal configurado o no instalado correctamente, ya que Active Directory depende de él para funcionar. Si el servidor apunta a un DNS externo o no resuelve nombres internos, la creación del dominio falla.</p>
+        </article>
+        <article>
+        <img src="img/image-103.png" alt="FTP" width="150px">
+        <p>En la instalación del servidor FTP suelen aparecer problemas relacionados con los permisos y la conectividad. Una incidencia frecuente consiste en configurar correctamente el servicio pero no asignar los permisos NTFS adecuados en las carpetas, lo que provoca que los usuarios no puedan acceder o subir archivos. También es habitual que el firewall no tenga habilitados el puerto 21 ni el rango de puertos pasivos, impidiendo que los clientes se conecten o puedan listar contenido.</p>
+        </article>
+    </div>
+    <div class="aws">
+        <img src="img/aws.png" alt="Despliege" width="400px" class="iaws">
+        <article>
+        <h2>Despliege</h2>
+        <p>Se implementó la aplicación web del vivero y su sistema de copias de seguridad en un entorno de cloud computing, con el objetivo de garantizar disponibilidad, seguridad y eficiencia de recursos. Se seleccionó un proveedor de nube adecuado, evaluando costo, facilidad de uso y funcionalidades.
+
+Se diseñó la arquitectura de despliegue, definiendo cómo se alojará la web y cómo se gestionarán las copias de seguridad, utilizando servicios específicos de almacenamiento en la nube. Posteriormente, se desplegó la aplicación web, configurando permisos y acceso público, y se verificó su correcto funcionamiento mediante pruebas.
+
+Finalmente, se configuró un plan de copias de seguridad para los datos críticos del vivero, estableciendo frecuencia, tipo de datos respaldados y políticas de retención en la nube.</p>
+        <a href=""><button >Leer mas</button></a>
+    </article>
+    </div>
+</main>
+    <footer>
+        <aside>
+        <img src="Imagenes/Logo.png" alt="Logo" class="logo">
+        </aside>
+        <aside>
+            <p><strong>Contáctos</strong></p>
+            <p>soporte@asesoriaekin.com</p>
+            <p>944395062</p>
+            <p>Licenciado Poza Kalea 31, 48011 Bilbao, Vizcaya</p>
+        </aside>
+        <aside>
+            <p><strong>Aviso</strong></p>
+            <p>Aviso legal LSSI-CE</p>
+            <p>Política de privacidad</p>
+            <p>Política de cookies (UE)</p>
+        </aside>
+        <aside>
+            <img src="Imagenes/X.png" alt="twitter" class="red">
+            <img src="Imagenes/instagram.png" alt="insta" class="red">
+            <img src="Imagenes/youtube.png" alt="youtube" class="red">
+            <img src="Imagenes/Linkedin.png" alt="Linkedin" class="red">
+        </aside>
+    </footer>
+</body>
+</html>
